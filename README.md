@@ -1,13 +1,13 @@
 # PeliCase Dataset
 
-**PeliCase** is a linguistic corpus consisting of Spanish-language YouTube comments concerning the Pelicot court case. The dataset was collected in November 2024 (prior to the court ruling) strictly for academic, scientific, and computational linguistics research purposes.
+**PeliCase** is a corpus consisting of Spanish-language YouTube comments concerning the Pelicot court case. The dataset was collected in November 2024 (prior to the court ruling) strictly for academic, scientific, and computational linguistics research purposes.
 
 ---
 
 ## Corpus Overview
 
 * **Extraction Period:** November 2024 (prior to the court verdict).
-* **Comment Date Range:** September 2, 2024 – November 11, 2024.
+* **Videos Publication Dates:** between September 2, 2024 and November 11, 2024.
 * **Coverage:** 46 videos across 38 YouTube channels.
 * **Channel Typology:** News, podcasts, and radio broadcasts.
 * **Available Formats:** JSON (`.json`) and CSV (`.csv`).
@@ -21,7 +21,7 @@ Videos included in the corpus were selected based on two strict criteria:
 1. **Narrative Focus:** The video explicitly covers the Pelicot case as its main narrative focus.
 2. **Language and Accessibility:** The video is narrated in Spanish and features Spanish subtitles whenever French-speaking participants appear.
 
-*Note:* Video duration ranges from 1 to 57 minutes. For detailed metadata regarding channel categorization, please refer to the supplementary file `Supplemental_Material_Dataset.csv`.
+*Note:* Video duration ranges from 1 to 57 minutes. For detailed metadata regarding channel categorization, please refer to the supplementary file `Supplemental_Material_Dataset`.
 
 ---
 
@@ -42,7 +42,7 @@ The `.json` and `.csv` files contain the following attributes:
 | :--- | :--- |
 | `corpus_id` | Unique comment identifier within the corpus. |
 | `extraction_id` | Comment identifier assigned during extraction in MAXQDA. |
-| `comment_anonimized` | Anonymized comment text (usernames replaced with `@user`). |
+| `comment_anonimized` | Anonymized comment text (usernames replaced with `@user`and content creators with @other). |
 | `base_comment` | `yes` if it is a top-level video comment; `no` if it is a reply to another comment. |
 | `publication_date_comment` | Publication timestamp of the comment. |
 | `title_video` | Original title of the YouTube video. |
@@ -75,4 +75,8 @@ The dataset and metadata collected in this repository are distributed under the 
 **Note on Third-Party Rights:**
 - The original comments remain the intellectual property of their respective authors on YouTube and are distributed under the *Fair Use* doctrine exclusively for non-profit academic, scientific, and linguistic research purposes.
 - The use of this dataset is subject to ongoing compliance with the [YouTube Terms of Service](https://www.youtube.com/t/terms).
+
+## References
+VERBI Software. (2021). MAXQDA 2022 [Computer software]. https://www.maxqda.com<img width="468" height="29" alt="image" src="https://github.com/user-attachments/assets/19c0c671-a2f4-47d4-9053-05ced15ecf1c" />
+
 
