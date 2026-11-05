@@ -62,7 +62,7 @@ The dataset and metadata collected in this repository are distributed under the 
 - The use of this dataset is subject to ongoing compliance with the [YouTube Terms of Service](https://www.youtube.com/t/terms).
 
 ## References
-VERBI Software. (2021). MAXQDA 2022 [Computer software]. https://www.maxqda.com<img width="468" height="29" alt="image" src="https://github.com/user-attachments/assets/19c0c671-a2f4-47d4-9053-05ced15ecf1c" />
+VERBI Software. (2021). MAXQDA 2022 [Computer software]. https://www.maxqda.com
 
 ---
 
