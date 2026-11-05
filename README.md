@@ -53,6 +53,18 @@ The `.json` and `.csv` files contain the following attributes:
 | `fully_processed_comment` | Preprocessed text (lowercased, punctuation removed, emojis stripped). |
 
 ---
+## License and Terms of Use
+
+The dataset and metadata collected in this repository are distributed under the **[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)** license.
+
+**Note on Third-Party Rights:**
+- The original comments remain the intellectual property of their respective authors on YouTube and are distributed under the *Fair Use* doctrine exclusively for non-profit academic, scientific, and linguistic research purposes.
+- The use of this dataset is subject to ongoing compliance with the [YouTube Terms of Service](https://www.youtube.com/t/terms).
+
+## References
+VERBI Software. (2021). MAXQDA 2022 [Computer software]. https://www.maxqda.com<img width="468" height="29" alt="image" src="https://github.com/user-attachments/assets/19c0c671-a2f4-47d4-9053-05ced15ecf1c" />
+
+---
 
 ## Usage Example (Python)
 
@@ -67,16 +79,4 @@ df_json = pd.read_json("pelicase_dataset.json")
 
 print(f"Total comments loaded: {len(df_csv)}")
 print(df_csv[["corpus_id", "comment_anonimized", "type_of_video"]].head())
-
-## License and Terms of Use
-
-The dataset and metadata collected in this repository are distributed under the **[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)** license.
-
-**Note on Third-Party Rights:**
-- The original comments remain the intellectual property of their respective authors on YouTube and are distributed under the *Fair Use* doctrine exclusively for non-profit academic, scientific, and linguistic research purposes.
-- The use of this dataset is subject to ongoing compliance with the [YouTube Terms of Service](https://www.youtube.com/t/terms).
-
-## References
-VERBI Software. (2021). MAXQDA 2022 [Computer software]. https://www.maxqda.com<img width="468" height="29" alt="image" src="https://github.com/user-attachments/assets/19c0c671-a2f4-47d4-9053-05ced15ecf1c" />
-
 
